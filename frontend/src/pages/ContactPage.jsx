@@ -15,7 +15,9 @@ const ContactPage = () => {
         />
 
         {/* Navigation Menu */}
-        <Navbar/>
+        <div className="absolute top-0 left-0 w-full">
+                 <Navbar />
+            </div>
       </header>
 
       {/* Main Section */}
