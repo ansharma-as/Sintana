@@ -7,7 +7,7 @@ const FooterComponent = () => {
         <div className="container mx-auto px-4 grid gap-8 lg:grid-cols-2 sm:grid-cols-1">
           
           {/* Right Section (Links) - Normally below Left Section, but appears above on small screens */}
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-1 sm:order-first lg:order-last">
+          <div className="flex justify-between">
             <div>
               <h3 className="font-bold mb-2"></h3>
               <ul className="space-y-2">
@@ -21,7 +21,7 @@ const FooterComponent = () => {
                 <li><a href="/privacyPolicy" className="hover:underline">Privacy Policy</a></li>
               </ul>
             </div>
-            <div>
+            <div className='text-start'>
               <h3 className="font-bold mb-2"></h3>
               <ul className="space-y-2">
                 <li><a href="/cintana-alliance" className="hover:underline">The Cintana Alliance</a></li>
