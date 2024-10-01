@@ -11,7 +11,7 @@ const FooterComponent = () => {
             <div>
               <h3 className="font-bold mb-2"></h3>
               <ul className="space-y-2">
-                <li><a href="/home" className="hover:underline">Home</a></li>
+                <li><a href="/" className="hover:underline">Home</a></li>
                 <li><a href="/team" className="hover:underline">Team</a></li>
                 <li><a href="/about" className="hover:underline">About</a></li>
                 <li><a href="/news" className="hover:underline">News</a></li>
