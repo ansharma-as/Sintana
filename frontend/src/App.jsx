@@ -5,6 +5,7 @@ import AboutPage from './pages/About'; // Ensure the path is correct
 import SintanaAlliance from './pages/SintanaAlliance'; // Ensure the path is correct
 import Home from './pages/Home'; // Ensure the path is correct
 import TrackpadSensitiveSlider from './components/SilderComponent';
+import AsuPartnership from './pages/AsuPartnership';
 
 // Define a separate component to use the location inside the Router
 const AppContent = () => {
@@ -38,6 +39,7 @@ const AppContent = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cintana-alliance" element={<SintanaAlliance />} />
         <Route path="/w" element={<TrackpadSensitiveSlider/>}></Route>
+        <Route path="/asu-partnership" element={<AsuPartnership />}></Route>
       </Routes>
     </>
   );
