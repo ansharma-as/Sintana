@@ -1,28 +1,55 @@
-import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { Suspense, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import ContactPage from './pages/ContactPage'; // Ensure the path is correct
-import Navbar from './components/Navbar'; // Assuming you have a Navbar component
 import AboutPage from './pages/About'; // Ensure the path is correct
 import SintanaAlliance from './pages/SintanaAlliance'; // Ensure the path is correct
 import Home from './pages/Home'; // Ensure the path is correct
+import TrackpadSensitiveSlider from './components/SilderComponent';
+
+// Define a separate component to use the location inside the Router
+const AppContent = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    switch (location.pathname) {
+      case '/':
+        document.title = 'Home - Sintana Education';
+        break;
+      case '/about':
+        document.title = 'About - Sintana Education';
+        break;
+      case '/contact':
+        document.title = 'Contact - Sintana Education';
+        break;
+      case '/cintana-alliance':
+        document.title = 'The Sintana Alliance - Sintana Education';
+        break;
+      default:
+        document.title = 'Home - Sintana Education';
+    }
+  }, [location]);
+
+  return (
+    <>
+      
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/cintana-alliance" element={<SintanaAlliance />} />
+        <Route path="/w" element={<TrackpadSensitiveSlider/>}></Route>
+      </Routes>
+    </>
+  );
+};
 
 const App = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <Router>
-        {/* You can add your Navbar component */}
-        
-
-        {/* Define your routes here */}
-        <Routes>
-          {/* Example Route for ContactPage */}
-          <Route path='/' element={<Home/>} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/cintana-alliance" element={<SintanaAlliance />} />
-        </Routes>
-      </Router>
-    </Suspense>
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <AppContent />
+      </Suspense>
+    </Router>
   );
 };
 
