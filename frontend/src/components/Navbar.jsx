@@ -38,7 +38,7 @@ const Navbar = () => {
 
       {/* Hamburger Menu for Mobile View (visible only on 'sm' screen) */}
       <div
-        className="sm1:fixed  md1:hidden lg1:hidden xl1:hidden absolute top-0 right-0 p-6 text-2xl cursor-pointer z-20"
+        className="sm1:absolute  md1:hidden lg1:hidden xl1:hidden absolute top-0 right-0 p-6 text-2xl cursor-pointer z-20"
         onClick={toggleMenu}
       >
         {showMenu ? (

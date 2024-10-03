@@ -9,7 +9,7 @@ const ContactPage = () => {
       <header className="relative">
         {/* Background Image */}
         <img 
-          className="w-full h-150 object-cover" 
+          className="w-full h-150 h-[217.8px] xl:h-[500px]  object-cover" 
           src="/images/contact.png" 
           alt="Background" 
         />
