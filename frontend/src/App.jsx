@@ -9,6 +9,7 @@ import AsuPartnership from './pages/AsuPartnership';
 import Team from './pages/Team';
 import TeamMemberDetail from './components/TeamMemberDetail';
 
+
 // Define a separate component to use the location inside the Router
 const AppContent = () => {
   const location = useLocation();
@@ -37,6 +38,7 @@ const AppContent = () => {
       
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/#' element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cintana-alliance" element={<SintanaAlliance />} />
@@ -44,6 +46,7 @@ const AppContent = () => {
         <Route path="/asu-partnership" element={<AsuPartnership />}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/team/:name' element={<TeamMemberDetail/>}/>
+
       </Routes>
     </>
   );
