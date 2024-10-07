@@ -8,12 +8,12 @@ const SintanaAlliance = () => {
   return (
     <div>
       {/* Hide the MapComponent when screen width is 1280px or larger */}
-      <div className="w-full lg:hidden"> 
+      <div className="w-full sm1:hidden md1:hidden lg1:hidden"> 
         <MapComponent />
       </div>
 
       {/* Show the Navbar component when screen width is 1280px or larger */}
-      <div className="hidden lg:block bg-customGrey">
+      <div className="hidden sm1:block md1:block lg1:block bg-customGrey">
         <Navbar />
       </div>
 

@@ -9,7 +9,9 @@ const AsuPartnership = () => {
   return (
     <>
       <div className="h-auto w-auto ">
-        <div className="bg-[url('../../public/images/partnership-page-bg.png')] bg-cover bg-center h-[500px] w-full sm:h-[217.8px] md:h-[217.8px] lg:h-[217.8px]">
+
+        <div className="bg-[url('/images/partnership-page-bg.png')] bg-cover bg-center h-[500px] w-full sm:h-[217.8px] md:h-[217.8px] lg:h-[217.8px]">
+        
           <Navbar />
         </div>
 
@@ -55,13 +57,15 @@ const AsuPartnership = () => {
             </p>
           </div>
 
-          <div className=" bg-[url('../../public/images/home-cutting-edge-photo-scaled.png')] bg-cover w-1/2 inline-block h-[668px] align-top lg:h-[489.531px] lg:w-auto lg:bg-center lg:bg-cover md:h-[489.531px]  md:w-auto md:bg-center md:bg-cover sm:h-[489.531px] sm:w-auto sm:bg-center sm:bg-cover">
+          <div className=" bg-[url('/images/home-cutting-edge-photo-scaled.png')] bg-cover w-1/2 inline-block h-[668px] align-top lg:h-[489.531px] lg:w-auto lg:bg-center lg:bg-cover md:h-[489.531px]  md:w-auto md:bg-center md:bg-cover sm:h-[489.531px] sm:w-auto sm:bg-center sm:bg-cover">
+
             {/* <img src="../../public/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
           </div>
         </div>
 
         <div className="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-col">
-          <div className=" bg-[url('../../public/images/asu-partnership-photo.png')] bg-cover  bg-center bg-no-repeat w-1/2 inline-block h-[1234.7px] align-top lg:h-[400px] lg:w-auto lg:bg-center lg:bg-cover md:h-[400px]  md:w-auto md:bg-center md:bg-cover sm:h-[400px] sm:w-auto sm:bg-center sm:bg-cover ">
+          <div className=" bg-[url('/images/asu-partnership-photo.png')] bg-cover  bg-center bg-no-repeat w-1/2 inline-block h-[1234.7px] align-top lg:h-[400px] lg:w-auto lg:bg-center lg:bg-cover md:h-[400px]  md:w-auto md:bg-center md:bg-cover sm:h-[400px] sm:w-auto sm:bg-center sm:bg-cover ">
+
             {/* <img src="../../public/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
           </div>
 
