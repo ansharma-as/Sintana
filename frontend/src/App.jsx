@@ -35,6 +35,7 @@ const AppContent = () => {
       
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/#' element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cintana-alliance" element={<SintanaAlliance />} />

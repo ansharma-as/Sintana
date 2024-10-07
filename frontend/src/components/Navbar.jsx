@@ -60,7 +60,7 @@ const Navbar = () => {
           onMouseLeave={() => setShowDropdown(false)}
         >
           <a
-            href="#"
+            href="/#"
             className={`font-sans font-medium text-[12.96px] text-white px-6 py-3 flex items-center transition-colors duration-300 hover:text-[#f0a500]  md1:pr-[24px] md1:pl-0 md1:py-0 lg1:pr-[24px] lg1:pl-0 lg1:py-0 lg1:text-[11.52px]`}
           >
             SOLUTIONS <FaChevronDown className="ml-2 text-[#f0a500]" />
