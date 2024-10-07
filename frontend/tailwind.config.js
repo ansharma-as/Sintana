@@ -17,7 +17,10 @@ export default {
         //sans: ['Inter', 'Arial', 'sans-serif'],
       },
       screens: {
-        sm1: { max: '760px' }, // @media (max-width: 760px)
+        ...require('tailwindcss/defaultTheme').screens,
+        sm1: { min: '0px' ,max: '760px' }, // @media (max-width: 760px)
+
+        
         md1: { min: '760px', max: '815px' }, // @media (min-width: 760px) and (max-width: 815px)
         lg1: { min: '815px', max: '1280px' }, // @media (min-width: 815px) and (max-width: 1280px)
         xl1: { min: '1280px' }, // This is the default Tailwind breakpoint for extra-large screens

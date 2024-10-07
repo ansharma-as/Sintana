@@ -8,16 +8,18 @@ import Autoslider from "../components/Autoslider";
 const AsuPartnership = () => {
   return (
     <>
-      <div className="h-auto w-auto ">
+
+      <div className=" relative h-auto w-auto ">
 
         <div className="bg-[url('/images/partnership-page-bg.png')] bg-cover bg-center h-[500px] w-full sm:h-[217.8px] md:h-[217.8px] lg:h-[217.8px]">
         
+
           <Navbar />
         </div>
 
         <div className="p-10">
           <div className="flex flex-col items-center ">
-            <h1 className="text-5xl font-bold leading-tight my-4 text-[#425563]">
+            <h1 className="text-5xl font-bold leading-tight  text-[#425563]">
               Our Partnership With ASU
             </h1>
             <p className="mb-[17.28px] ">
@@ -43,8 +45,8 @@ const AsuPartnership = () => {
       <Autoslider/>
 
       <div className="">
-        <div className="lg:flex flex-col-reverse md:flex sm:flex">
-          <div className="py-[70px] pl-[120px] pr-[270px] w-1/2 inline-block h-auto align-top sm:w-full sm:p-6 sm:h-auto md:w-full md:p-8 md:h-auto lg:w-full lg:p-10 lg:h-auto">
+        <div className="lg1:flex flex-col-reverse md1:flex sm1:flex">
+          <div className="py-[70px] pl-[120px] pr-[270px] w-1/2 inline-block h-auto align-top sm1:w-full sm1:p-6 sm1:h-auto md1:w-full md1:p-8 md1:h-auto lg1:w-full lg1:p-10 lg1:h-auto">
             <h2 className="text-[30px] text-[#425563] font-bold tracking-normal leading-tight">
               Cutting-Edge Innovation and Research
             </h2>
@@ -57,19 +59,21 @@ const AsuPartnership = () => {
             </p>
           </div>
 
+
           <div className=" bg-[url('/images/home-cutting-edge-photo-scaled.png')] bg-cover w-1/2 inline-block h-[668px] align-top lg:h-[489.531px] lg:w-auto lg:bg-center lg:bg-cover md:h-[489.531px]  md:w-auto md:bg-center md:bg-cover sm:h-[489.531px] sm:w-auto sm:bg-center sm:bg-cover">
 
             {/* <img src="../../public/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
           </div>
         </div>
 
-        <div className="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-col">
+        <div className="sm1:flex sm1:flex-col md1:flex md1:flex-col lg1:flex lg1:flex-col">
+          
           <div className=" bg-[url('/images/asu-partnership-photo.png')] bg-cover  bg-center bg-no-repeat w-1/2 inline-block h-[1234.7px] align-top lg:h-[400px] lg:w-auto lg:bg-center lg:bg-cover md:h-[400px]  md:w-auto md:bg-center md:bg-cover sm:h-[400px] sm:w-auto sm:bg-center sm:bg-cover ">
 
             {/* <img src="../../public/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
           </div>
 
-          <div className="py-[70px] pl-[120px] pr-[270px] w-1/2 inline-block h-[1234.7px] align-top sm:p-6 sm:w-full sm:h-auto md:p-8 md:w-full md:h-auto lg:p-10 lg:w-full lg:h-auto">
+          <div className="py-[70px] pl-[120px] pr-[270px] w-1/2 inline-block h-[1234.7px] align-top sm1:p-6 sm1:w-full sm1:h-auto md1:p-8 md1:w-full md1:h-auto lg1:p-10 lg1:w-full lg1:h-auto">
             <h2 className="text-[46.08px] text-[#425563] font-bold tracking-normal leading-tight">
               World-Class Resources and Faculty
             </h2>

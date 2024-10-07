@@ -11,7 +11,7 @@ const AboutPage = () => {
       <header className="relative">
         {/* Background Image */}
         <img
-          className="w-full h-[600px] object-cover" // Adjust the height as necessary
+          className="w-full  h-[217.8px] xl:h-[500px] object-cover" // Adjust the height as necessary
           src="/images/about.png" // Make sure the correct image path is here
           alt="Background"
         />

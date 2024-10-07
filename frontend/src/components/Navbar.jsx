@@ -38,7 +38,9 @@ const Navbar = () => {
 
       {/* Hamburger Menu for Mobile View (visible only on 'sm' screen) */}
       <div
-        className="sm1:fixed  md1:hidden lg1:hidden xl1:hidden absolute top-0 right-0 p-6 text-2xl cursor-pointer z-20"
+
+        className="sm1:absolute  md1:hidden lg1:hidden xl1:hidden absolute top-0 right-0 p-6 text-2xl cursor-pointer z-20"
+
         onClick={toggleMenu}
       >
         {showMenu ? (
@@ -60,7 +62,9 @@ const Navbar = () => {
           onMouseLeave={() => setShowDropdown(false)}
         >
           <a
+
             href="/#"
+
             className={`font-sans font-medium text-[12.96px] text-white px-6 py-3 flex items-center transition-colors duration-300 hover:text-[#f0a500]  md1:pr-[24px] md1:pl-0 md1:py-0 lg1:pr-[24px] lg1:pl-0 lg1:py-0 lg1:text-[11.52px]`}
           >
             SOLUTIONS <FaChevronDown className="ml-2 text-[#f0a500]" />
