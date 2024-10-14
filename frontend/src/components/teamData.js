@@ -71,7 +71,7 @@ const teamData = [
   },
   {
     name: "Dr. Li Wei",
-    image: "/public/images/teamImages/m-5.jpeg",
+    image: "/images/teamImages/m-5.jpeg",
     region: "Asia-Pacific",
     practice: "Academic Excellence",
     leadership: "Practice Leader",
@@ -81,7 +81,7 @@ const teamData = [
   },
   {
     name: "Dr. Ahmed Youssef",
-    image: "/public/images/teamImages/m-6.jpeg",
+    image: "/images/teamImages/m-6.jpeg",
     region: "Middle East",
     practice: "Health Sciences",
     leadership: "Regional Leader",
@@ -91,7 +91,7 @@ const teamData = [
   },
   {
     name: "Laura Martins",
-    image: "/public/images/teamImages/fe-4.jpg",
+    image: "/images/teamImages/fe-4.jpg",
     region: "Latin America",
     practice: "Online",
     leadership: "Practice Leader",
@@ -101,7 +101,7 @@ const teamData = [
   },
   {
     name: "David Patel",
-    image: "/public/images/teamImages/m-7.jpeg",
+    image: "/images/teamImages/m-7.jpeg",
     region: "Global",
     practice: "Product & Technology",
     leadership: "Corporate Leader",
@@ -111,7 +111,7 @@ const teamData = [
   },
   {
     name: "Elena Rossi",
-    image: "/public/images/teamImages/fe-5.png",
+    image: "/images/teamImages/fe-5.png",
     region: "Europe",
     practice: "Health Sciences",
     leadership: "Practice Leader",
