@@ -107,7 +107,7 @@ const Navbar = () => {
             THE CINTANA ALLIANCE
           </a>
           <a
-            href="asu-partnership"
+            href="/asu-partnership"
             className="px-6 py-3 text-[12.96px] text-white hover:text-[#f0a500]  md1:pr-[24px] md1:pl-0 md1:py-0 lg1:pr-[24px] lg1:pl-0 lg1:py-0 lg1:text-[11.52px]"
           >
             ASU PARTNERSHIP
