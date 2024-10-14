@@ -9,7 +9,7 @@ const AsuPartnership = () => {
   return (
     <>
       <div className=" relative h-auto w-auto ">
-        <div className="bg-[url('../../public/images/partnership-page-bg.png')] bg-cover bg-center h-[217.8px] w-full xl1:h-[500px] ">
+        <div className="bg-[url('/images/partnership-page-bg.png')] bg-cover bg-center h-[217.8px] w-full xl1:h-[500px] ">
           <Navbar />
         </div>
 
@@ -55,14 +55,14 @@ const AsuPartnership = () => {
             </p>
           </div>
 
-          <div className=" bg-[url('../../public/images/home-cutting-edge-photo-scaled.png')] bg-cover w-1/2 inline-block h-[668px] align-top lg1:h-[489.531px] lg1:w-auto lg1:bg-center lg1:bg-cover md1:h-[489.531px]  md1:w-auto md1:bg-center md1:bg-cover sm1:h-[489.531px] sm1:w-auto sm1:bg-center sm1:bg-cover">
-            {/* <img src="../../public/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
+          <div className=" bg-[url('/images/home-cutting-edge-photo-scaled.png')] bg-cover w-1/2 inline-block h-[668px] align-top lg1:h-[489.531px] lg1:w-auto lg1:bg-center lg1:bg-cover md1:h-[489.531px]  md1:w-auto md1:bg-center md1:bg-cover sm1:h-[489.531px] sm1:w-auto sm1:bg-center sm1:bg-cover">
+            {/* <img src="/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
           </div>
         </div>
 
         <div className="sm1:flex sm1:flex-col md1:flex md1:flex-col lg1:flex lg1:flex-col">
-          <div className=" bg-[url('../../public/images/asu-partnership-photo.png')] bg-cover  bg-center bg-no-repeat w-1/2 inline-block h-[1234.7px] align-top lg1:h-[400px] lg1:w-auto lg1:bg-center lg1:bg-cover md1:h-[400px]  md1:w-auto md1:bg-center md1:bg-cover sm1:h-[400px] sm1:w-auto sm1:bg-center sm1:bg-cover ">
-            {/* <img src="../../public/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
+          <div className=" bg-[url('/images/asu-partnership-photo.png')] bg-cover  bg-center bg-no-repeat w-1/2 inline-block h-[1234.7px] align-top lg1:h-[400px] lg1:w-auto lg1:bg-center lg1:bg-cover md1:h-[400px]  md1:w-auto md1:bg-center md1:bg-cover sm1:h-[400px] sm1:w-auto sm1:bg-center sm1:bg-cover ">
+            {/* <img src="/images/home-cutting-edge-photo-scaled.jpg" alt="" className='object-cover bg-no-repeat h-[668px]'/> */}
           </div>
 
           <div className="py-[70px] pl-[120px] pr-[270px] w-1/2 inline-block h-[1234.7px] align-top sm1:p-6 sm1:w-full sm1:h-auto md1:p-8 md1:w-full md1:h-auto lg1:p-10 lg1:w-full lg1:h-auto">
