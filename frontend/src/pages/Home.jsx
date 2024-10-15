@@ -24,12 +24,14 @@ const App = () => {
           <UniversityImprovement />
         </div>
 
+      <div>
         <div>
           <HomeCardsSection />
         </div>
         <div>
           <HomeComponent2 />
         </div>
+      </div>
       
       
       <div>

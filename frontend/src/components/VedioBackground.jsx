@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+
+
 
 const VideoBackgroundSection = () => {
   const [showVideo, setShowVideo] = useState(true);
@@ -46,7 +50,7 @@ const VideoBackgroundSection = () => {
         </video>
       ) : (
         <img
-          src="/images/vedio-changer.jpeg" // Replace with the path to your image
+          src="/images/vedio-changer.jpeg" 
           alt="Background Image"
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
@@ -60,33 +64,34 @@ const VideoBackgroundSection = () => {
       {/* Main Overlay Div (for content) */}
       <div className="absolute top-0 left-0 right-0 bottom-0 w-[86%] mx-auto bg-white bg-opacity-0 flex flex-col justify-center">
         {/* Title */}
-        <h1 className="mt-32 text-7xl text-white font-bold tracking-wide mb-4">
+        <h1 className="mt-32 text-4xl md:text-5xl lg:text-7xl text-white font-bold tracking-wide mb-4">
           Partners in Growth
         </h1>
 
         {/* Subtitle */}
         <div>
-          <p className="text-[27.26px] font-bold text-white mb-6 w-full leading-relaxed">
+          <p className=" text-lg lg:text-[27.26px] font-bold text-white mb-6 w-full leading-relaxed">
             Cintana helps universities achieve their ambitious goals by connecting them to the transformational resources and partners they need to succeed.
           </p>
 
-          <span className="text-[27.26px] text-white mb-6 leading-relaxed w-full">
+          <span className="text-lg lg:text-[27.26px] text-white mb-6 leading-relaxed w-full">
             Founded by <span className="text-yellow-400">Douglas Becker</span> in collaboration with <span className="text-yellow-400">Arizona State University</span> (ranked #1 in the U.S. for innovation), Cintana helps universities reach more students with the education they need and deserve.
           </span>
         </div>
 
         {/* Buttons */}
-        <div className="flex space-x-4 mt-16">
+        <div className="flex space-x-2 lg:space-x-4 mt-16">
           <a href="/cintana-alliance">
-            <button className="text-bold opacity-85 text-lg bg-yellow-600 text-white px-12 py-2.5 transition duration-300">
+            <button className="text-bold opacity-85 text-sm lg:text-lg bg-yellow-500 text-white px-8 lg:px-12 py-2.5 transition duration-300">
               Discover More
             </button>
           </a>
           <button
             onClick={handleWatchVideoClick}
-            className="text-lg text-white px-9 py-2 transition duration-300"
+            className="text-sm lg:text-lg text-white px-9 py-2 transition duration-300"
           >
             Watch The Video
+            <FontAwesomeIcon icon={faYoutube} className="ml-2 text-lg" />
           </button>
         </div>
       </div>
@@ -94,7 +99,7 @@ const VideoBackgroundSection = () => {
       {/* YouTube Video Overlay */}
       {showYouTubeVideo && (
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-75 flex justify-center items-center z-50">
-          <div className="relative w-[100%] lg:w-[80%]">
+          <div className="relative w-[90%] h-[70%] lg:h-[100%] lg:w-[80%]">
             <iframe
               width="100%"
               height="700"

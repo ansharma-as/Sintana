@@ -4,7 +4,7 @@ const FooterComponent = () => {
   return (
     <div>
       <footer className="bg-customGrey text-white py-8">
-        <div className="container mx-auto px-4 grid gap-8 lg:grid-cols-2 sm:grid-cols-1">
+        <div className="container mx-0 px-4 grid gap-8 lg:grid-cols-2 sm:grid-cols-1">
           
           {/* Right Section (Links) - Normally below Left Section, but appears above on small screens */}
           <div className="flex justify-between">
