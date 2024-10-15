@@ -9,7 +9,7 @@ import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 
 const UniversityImprovement = () => {
   return (
-    <div className="text-center h-[835px] w-full py-12">
+    <div className="text-center h-auto w-full py-12">
       <div className="text-customGrey text-5xl font-bold mb-4 mt-4">
         <AccountBalanceIcon  sx={{ fontSize: 100 }} className="text-customGrey text-3xl mb-4"/>
         <br />

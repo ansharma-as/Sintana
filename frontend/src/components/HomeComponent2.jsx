@@ -45,7 +45,7 @@ const NewsCards = () => {
   ];
 
   const [currentPage, setCurrentPage] = useState(0);
-  const cardsPerPage = 3;
+  const cardsPerPage = window.innerWidth <= 760 ? 1 : 3; // Set cardsPerPage based on viewport width
 
   const handleNext = () => {
     if (currentPage < Math.ceil(articles.length / cardsPerPage) - 1) {
@@ -63,11 +63,12 @@ const NewsCards = () => {
   const currentArticles = articles.slice(startIndex, startIndex + cardsPerPage);
 
   return (
-    <div className="bg-gray-300 py-12 h-fit">
-      <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-6">
+    <div className="bg-gray-300 py-12 h-auto">
+      <div className="container max-w-fit mx-auto  ">
+      {/* Cards */}
+        <div className="flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-8">
           {currentArticles.map((article, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/3">
+            <div key={index} className="bg-gray-300 p-6 rounded-lg  w-full lg:w-1/3">
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 {article.title}
               </h2>
@@ -81,6 +82,7 @@ const NewsCards = () => {
           ))}
         </div>
 
+        {/* Pagination Buttons */}
         <div className="flex justify-center space-x-4 mt-6">
           <button
             onClick={handlePrevious}
