@@ -32,7 +32,7 @@ const AppContent = () => {
         document.title = 'News - Sintana Education';
         break;
       case '/terms':
-        document.title = 'News - Sintana Education';
+        document.title = 'Terms - Sintana Education';
         break;
       case '/sintana-alliance':
         document.title = 'The Sintana Alliance - Sintana Education';
@@ -52,13 +52,14 @@ const AppContent = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/sintana-alliance" element={<SintanaAlliance />} />
         <Route path="/w" element={<TrackpadSensitiveSlider/>}/>
-        <Route path="/asu-partnership" element={<AsuPartnership />}/>
+        <Route path="/bu-partnership" element={<AsuPartnership />}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/team/:name' element={<TeamMemberDetail/>}/>
         <Route path='/globally-ranked-universities' element={<Universities/>} />
 
         <Route path='/news' element={<NewsPage/>}/>
         <Route path='/terms' element={<TermsPage/>}/>
+        <Route path='/powered-by-bu' element={<TermsPage/>}/>
 
 
       </Routes>
