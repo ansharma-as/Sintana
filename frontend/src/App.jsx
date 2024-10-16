@@ -9,6 +9,8 @@ import AsuPartnership from './pages/AsuPartnership';
 import Team from './pages/Team';
 import TeamMemberDetail from './components/TeamMemberDetail';
 import Universities from './pages/Universities';
+import NewUniversities from './pages/NewUniversities';
+
 import NewsPage from './pages/News';
 import TermsPage from './pages/TermsOfUse';
 import ExistingUniversities from './pages/existingUniversities';
@@ -58,6 +60,7 @@ const AppContent = () => {
         <Route path='/team' element={<Team/>}/>
         <Route path='/team/:name' element={<TeamMemberDetail/>}/>
         <Route path='/globally-ranked-universities' element={<Universities/>} />
+        <Route path='/new-universities' element={<NewUniversities/>}/>
 
         <Route path='/news' element={<NewsPage/>}/>
         <Route path='/terms' element={<TermsPage/>}/>
