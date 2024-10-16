@@ -8,6 +8,7 @@ import TrackpadSensitiveSlider from './components/SilderComponent';
 import AsuPartnership from './pages/AsuPartnership';
 import Team from './pages/Team';
 import TeamMemberDetail from './components/TeamMemberDetail';
+import Universities from './pages/Universities';
 
 // Define a separate component to use the location inside the Router
 const AppContent = () => {
@@ -44,6 +45,7 @@ const AppContent = () => {
         <Route path="/asu-partnership" element={<AsuPartnership />}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/team/:name' element={<TeamMemberDetail/>}/>
+        <Route path='/globally-ranked-universities' element={<Universities/>} />
       </Routes>
     </>
   );
