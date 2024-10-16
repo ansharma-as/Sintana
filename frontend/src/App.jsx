@@ -13,6 +13,8 @@ import NewUniversities from './pages/NewUniversities';
 
 import NewsPage from './pages/News';
 import TermsPage from './pages/TermsOfUse';
+import ExistingUniversities from './pages/existingUniversities';
+import PoweredByBU from './pages/PoweredByBU';
 
 
 // Define a separate component to use the location inside the Router
@@ -62,7 +64,8 @@ const AppContent = () => {
 
         <Route path='/news' element={<NewsPage/>}/>
         <Route path='/terms' element={<TermsPage/>}/>
-        <Route path='/powered-by-bu' element={<TermsPage/>}/>
+        <Route path='/powered-by-bu' element={<PoweredByBU/>}/>
+        <Route path='/existing-universities' element={< ExistingUniversities />}/>
 
 
       </Routes>

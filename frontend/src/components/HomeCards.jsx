@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HomeCards = () => {
+  const navigate = useNavigate()
   return (
     <div className="bg-gray-100">
       <div className="container mx-auto flex flex-col xl:flex-row items-center">
@@ -13,7 +15,8 @@ const HomeCards = () => {
           <p className="text-gray-500 mb-6 ml-5">
             When you partner with Sintana and BU, your students get direct access to the resources and expertise of Bennett University.
           </p>
-          <button className="bg-yellow-500 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition ml-8">
+          <button className="bg-yellow-500 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition ml-8"
+          onClick={() => navigate('/powered-by-bu')}>
             Learn more
           </button>
         </div>
@@ -49,7 +52,8 @@ const HomeCards = () => {
           </h1>
           <p className="text-gray-500 mb-6 ml-5">
           We can help design, launch, and operate new projects anywhere in the world.          </p>
-          <button className="bg-yellow-500 text-white ml-8 font-bold py-2 px-6 rounded hover:bg-yellow-600 transition">
+          <button className="bg-yellow-500 text-white ml-8 font-bold py-2 px-6 rounded hover:bg-yellow-600 transition"
+          onClick={() => navigate('/new-universities')}>
             Learn more
           </button>
         </div>
@@ -67,7 +71,8 @@ const HomeCards = () => {
           </h1>
           <p className="text-gray-500 mb-6 ml-5">
           We can help develop new markets, launch and manage foreign campuses, and create new cross-border partnerships.          </p>
-          <button className="bg-yellow-500 ml-8 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition">
+          <button className="bg-yellow-500 ml-8 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition"
+          onClick={() => navigate('/globally-ranked-universities')}>
             Learn more
           </button>
         </div>
