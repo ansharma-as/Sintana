@@ -30,7 +30,7 @@ const TeamMemberDetail = () => {
     
 
     if (currentIndex > 0) {
-        const slugifiedName = slugify(teamData[currentIndex - 1].name);
+        const slugifiedName = slugify((teamData[currentIndex - 1]).name);
       navigate(`/team/${slugifiedName}`, {
         state: { member: teamData[currentIndex - 1] },
       });
@@ -41,7 +41,7 @@ const TeamMemberDetail = () => {
     
 
     if (currentIndex < teamData.length - 1) {
-        const slugifiedName = slugify(teamData[currentIndex + 1] .name);
+        const slugifiedName = slugify((teamData[currentIndex + 1]).name);
       navigate(`/team/${slugifiedName}`, {
         state: { member: teamData[currentIndex + 1] },
       });

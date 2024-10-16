@@ -3,45 +3,42 @@ import React, { useState } from 'react';
 const NewsCards = () => {
   const articles = [
     {
-        title: 'The Most Innovative University in U.S., Arizona State University, Unlocks Opportunity for Universum International College to Redefine Higher Education in Kosovo and the region',
-        description: 'Universum College joins the ASU-Cintana Alliance, building on a commitment to support internationally competitive research, professional development, and a transformative student experience. Prishtina, KOSOVO, March 31, 2023. Universum International College...',
+        title: 'Bennett University, recognized as one of the most innovative institutions in India, Bennett University transform higher education in Noida(U.P) and the surrounding region.',
+        description: "As one of India's most innovative universities, Bennett University is reshaping the educational landscape in Noida and the surrounding region. With a focus on cutting-edge curriculum, state-of-the-art facilities, and a commitment to excellence, Bennett University is empowering students to become future leaders.",
         link: '#',
     },
-      {
-        title: 'Universidad Norbert Wiener Partners with Arizona State University to Bring Innovative Global Education to Peru',
-        description: 'Universidad Norbert Wiener joins the ASU-Cintana Alliance to offer a unique educational model in Peru that provides students with new academic opportunities. Lima, January 22, 2023. Universidad Norbert Wiener (UNW)...',
-        link: '#',
-      },
-      {
-        title: 'CEIPA Joins the ASU-Cintana Alliance and Partners with Arizona State University to Boost its Academic Excellence',
-        description: 'Powered by Arizona State University, CEIPA’s new programming will establish a unique educational model in Colombia that provides students with a wide range of new academic opportunities. Sabaneta – August...',
-        link: '#',
-      },
     {
-      title: 'International Students Welcomed in Arizona for Inaugural Sustainability and Innovation Summer Immersion Program at Arizona State University',
-      description: 'Participants of the two-week program created lifelong friendships and were inspired to make a positive impact in their communities...',
+      title: 'Senior Faculty of Bennett University Jagendra Singh to Join Sintana Education as President',
+      description: 'Former Bennett University executive leader brings deep higher education and business background to Sintana Education’s global university network.',
       link: '#',
     },
     {
-      title: 'Galala University Joins Global Alliance, Enabling Egyptian Students to Receive Both Egyptian and American Degrees in High-Demand Fields',
-      description: 'Powered by Arizona State University, Galala University joins the Cintana Alliance to provide Egyptian students with access to world-class degree programs and cutting-edge research...',
+      title: 'Bennett University Partners with Georgia Tech to Drive Innovation in Engineering and Technology Education',
+      description: 'Bennett University collaborates with Georgia Tech to introduce advanced programs that provide students with cutting-edge opportunities in engineering and technology. Greater Noida – March 5, 2024. Bennett University...',
       link: '#',
     },
     {
-      title: 'CinLearn',
-      description: 'CinLearn helps globally ranked universities offer online programs in native languages in markets around the world. Cross-border online education provides an important alternative for globally ranked universities...',
+      title: 'Bennett University Joins Forces with George Mason University to Enhance Global Business and Management Education',
+      description: 'In partnership with George Mason University, Bennett University is set to deliver globally recognized business programs, equipping students with international perspectives and expertise. Greater Noida – April 10, 2024...',
       link: '#',
     },
     {
-        title: 'Arizona State University Partners with Cintana Education to Launch Global University Network',
-        description: 'Unique collaboration will help institutions worldwide meet rising demand for higher education; scale access to high-quality programs. TEMPE — August 27, 2019 —Cintana Education, a new public benefit corporation led...',
+      title: 'Bennett University Collaborates with Tel Aviv University to Boost Research and Innovation in Science and Technology',
+      description: 'Through its partnership with Tel Aviv University, Bennett University aims to elevate research and innovation, providing students with unparalleled learning experiences in science and technology. Greater Noida – May 20, 2024...',
+      link: '#',
+    },
+    {
+      title: 'Bennett University Partners with the University of Essex to Redefine Legal Studies and Humanities Programs in India',
+      description: 'Bennett University teams up with the University of Essex to offer world-class programs in law and humanities, giving students access to international education and professional development. Greater Noida – June 15, 2024...',
+      link: '#',
+    },
+    
+    {
+        title: 'Bennett University Partners with Sintana Education to Launch Global University Network',
+        description: 'Unique collaboration will help institutions worldwide meet rising demand for higher education; scale access to high-quality programs.',
         link: '#',
       },
-      {
-        title: 'Arizona State University Senior Leader Rick Shangraw to Join Cintana Education as President',
-        description: 'Former Arizona State University executive leader brings deep higher education and business background to Cintana Education’s global university network. TEMPE – May 5, 2020 – Today, Cintana Education announced that...',
-        link: '#',
-      }
+      
   ];
 
   const [currentPage, setCurrentPage] = useState(0);

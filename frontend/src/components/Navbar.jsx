@@ -7,6 +7,13 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
+
+    if (!showMenu) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  
   };
 
   useEffect(() => {
@@ -81,7 +88,7 @@ const Navbar = () => {
                 href="/powered-by-asu"
                 className="px-4 py-2 hover:bg-opacity-75 sm1:px-6 sm1:py-3"
               >
-                Powered by ASU
+                Powered by BU
               </a>
               <a
                 href="/new-universities"
@@ -105,16 +112,16 @@ const Navbar = () => {
             TEAM
           </a>
           <a
-            href="/cintana-alliance"
+            href="/sintana-alliance"
             className="px-6 py-3 text-[12.96px] text-white hover:text-[#f0a500]  md1:pr-[24px] md1:pl-0 md1:py-0 lg1:pr-[24px] lg1:pl-0 lg1:py-0 lg1:text-[11.52px]"
           >
-            THE CINTANA ALLIANCE
+            THE SINTANA ALLIANCE
           </a>
           <a
-            href="asu-partnership"
+            href="/asu-partnership"
             className="px-6 py-3 text-[12.96px] text-white hover:text-[#f0a500]  md1:pr-[24px] md1:pl-0 md1:py-0 lg1:pr-[24px] lg1:pl-0 lg1:py-0 lg1:text-[11.52px]"
           >
-            ASU PARTNERSHIP
+            BU PARTNERSHIP
           </a>
           <a
             href="/about"

@@ -1,7 +1,7 @@
 const teamData = [
   {
     name: "Douglas L. Becker",
-    image: "../../public/images/teamImages/m-1.jpg",
+    image: "/images/teamImages/m-1.jpg",
     region: "Global",
     practice: "Academic Excellence",
     leadership: "Corporate Leader",
@@ -11,7 +11,7 @@ const teamData = [
   },
   {
     name: "Maria Sanchez",
-    image: "../../public/images/teamImages/fe-1.jpeg",
+    image: "/images/teamImages/fe-1.jpeg",
     region: "Latin America",
     practice: "Marketing & Enrollment",
     leadership: "Regional Leader",
@@ -21,7 +21,7 @@ const teamData = [
   },
   {
     name: "Dr. John Nguyen",
-    image: "../../public/images/teamImages/m-2.jpg",
+    image: "/images/teamImages/m-2.jpg",
     region: "Asia-Pacific",
     practice: "Health Sciences",
     leadership: "Practice Leader",
@@ -31,7 +31,7 @@ const teamData = [
   },
   {
     name: "Fatima Al-Hassan",
-    image: "../../public/images/teamImages/fe-2.jpeg",
+    image: "/images/teamImages/fe-2.jpeg",
     region: "Middle East",
     practice: "Online",
     leadership: "Practice Leader",
@@ -41,7 +41,7 @@ const teamData = [
   },
   {
     name: "Carlos Méndez",
-    image: "../../public/images/teamImages/m-3.jpeg",
+    image: "/images/teamImages/m-3.jpeg",
     region: "Europe",
     practice: "Product & Technology",
     leadership: "Corporate Leader",
@@ -51,7 +51,7 @@ const teamData = [
   },
   {
     name: "Amina Khalid",
-    image: "../../public/images/teamImages/fe-3.png",
+    image: "/images/teamImages/fe-3.png",
     region: "Africa",
     practice: "Academic Excellence",
     leadership: "Regional Leader",
@@ -61,7 +61,7 @@ const teamData = [
   },
   {
     name: "Richard Thompson",
-    image: "../../public/images/teamImages/m-4.jpeg",
+    image: "/images/teamImages/m-4.jpeg",
     region: "Global",
     practice: "Marketing & Enrollment",
     leadership: "Corporate Leader",
@@ -71,7 +71,7 @@ const teamData = [
   },
   {
     name: "Dr. Li Wei",
-    image: "../../public/images/teamImages/m-5.jpeg",
+    image: "/images/teamImages/m-5.jpeg",
     region: "Asia-Pacific",
     practice: "Academic Excellence",
     leadership: "Practice Leader",
@@ -81,7 +81,7 @@ const teamData = [
   },
   {
     name: "Dr. Ahmed Youssef",
-    image: "../../public/images/teamImages/m-6.jpeg",
+    image: "/images/teamImages/m-6.jpeg",
     region: "Middle East",
     practice: "Health Sciences",
     leadership: "Regional Leader",
@@ -91,7 +91,7 @@ const teamData = [
   },
   {
     name: "Laura Martins",
-    image: "../../public/images/teamImages/fe-4.jpg",
+    image: "/images/teamImages/fe-4.jpg",
     region: "Latin America",
     practice: "Online",
     leadership: "Practice Leader",
@@ -101,7 +101,7 @@ const teamData = [
   },
   {
     name: "David Patel",
-    image: "../../public/images/teamImages/m-7.jpeg",
+    image: "/images/teamImages/m-7.jpeg",
     region: "Global",
     practice: "Product & Technology",
     leadership: "Corporate Leader",
@@ -111,7 +111,7 @@ const teamData = [
   },
   {
     name: "Elena Rossi",
-    image: "../../public/images/teamImages/fe-5.png",
+    image: "/images/teamImages/fe-5.png",
     region: "Europe",
     practice: "Health Sciences",
     leadership: "Practice Leader",
@@ -121,7 +121,7 @@ const teamData = [
   },
   {
     name: "Victor García",
-    image: "../../public/images/teamImages/m-8.jpg",
+    image: "/images/teamImages/m-8.jpg",
     region: "Latin America",
     practice: "Marketing & Enrollment",
     leadership: "Regional Leader",
@@ -131,7 +131,7 @@ const teamData = [
   },
   {
     name: "Isabella Fischer",
-    image: "../../public/images/teamImages/fe-6.jpeg",
+    image: "/images/teamImages/fe-6.jpeg",
     region: "Europe",
     practice: "Online",
     leadership: "Regional Leader",
@@ -141,7 +141,7 @@ const teamData = [
   },
   {
     name: "Mohamed Ibrahim",
-    image: "../../public/images/teamImages/m-9.jpeg",
+    image: "/images/teamImages/m-9.jpeg",
     region: "Africa",
     practice: "Product & Technology",
     leadership: "Practice Leader",
@@ -151,7 +151,7 @@ const teamData = [
   },
   {
     name: "Sofia Fernandez",
-    image: "../../public/images/teamImages/fe-7.jpg",
+    image: "/images/teamImages/fe-7.jpg",
     region: "Latin America",
     practice: "Health Sciences",
     leadership: "Practice Leader",
@@ -161,7 +161,7 @@ const teamData = [
   },
   {
     name: "James Wilson",
-    image: "../../public/images/teamImages/m-10.jpeg",
+    image: "/images/teamImages/m-10.jpeg",
     region: "Global",
     practice: "Academic Excellence",
     leadership: "Corporate Leader",
@@ -171,7 +171,7 @@ const teamData = [
   },
   {
     name: "Dr. Sara Khan",
-    image: "../../public/images/teamImages/fe-8.jpeg",
+    image: "/images/teamImages/fe-8.jpeg",
     region: "Asia-Pacific",
     practice: "Health Sciences",
     leadership: "Regional Leader",
@@ -181,7 +181,7 @@ const teamData = [
   },
   {
     name: "Dr. Karen O'Connor",
-    image: "../../public/images/teamImages/fe-9.jpeg",
+    image: "/images/teamImages/fe-9.jpeg",
     region: "Europe",
     practice: "Academic Excellence",
     leadership: "Regional Leader",
@@ -191,7 +191,7 @@ const teamData = [
   },
   {
     name: "Yousef Al-Tamimi",
-    image: "../../public/images/teamImages/m-11.jpeg",
+    image: "/images/teamImages/m-11.jpeg",
     region: "Middle East",
     practice: "Marketing & Enrollment",
     leadership: "Regional Leader",

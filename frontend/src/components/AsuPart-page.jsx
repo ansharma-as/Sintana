@@ -5,7 +5,7 @@ import ArchitectureIcon from "@mui/icons-material/Architecture";
 import LaptopIcon from "@mui/icons-material/Laptop";
 import LanguageIcon from "@mui/icons-material/Language";
 
-const AsuPart = () => {
+const BUPart = () => {
   return (
     <div className="text-[14.44px] flex justify-evenly flex-wrap">
       <div className="w-[200px] flex flex-col items-center text-center pb-8">
@@ -17,7 +17,7 @@ const AsuPart = () => {
         </div>
 
         <div >
-          Access to a digital repository of content and curriculum from the ASU
+          Access to a digital repository of content and curriculum from the BU
           catalogue of 200+ online degree programs.
         </div>
       </div>
@@ -31,7 +31,7 @@ const AsuPart = () => {
         </div>
         <div>
           A range of global learning options including the opportunity to study
-          at an ASU campus in Phoenix, Washington D.C., or Los Angeles.
+          at an BU campus in Phoenix, Washington D.C., or Los Angeles.
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const AsuPart = () => {
         </div>
         <div>
           Coordinated program opportunities where students study one or more
-          years directly with ASU and earn two degrees (e.g. 2+2, 3+1, 4+1).
+          years directly with BU and earn two degrees (e.g. 2+2, 3+1, 4+1).
         </div>
       </div>
 
@@ -57,7 +57,7 @@ const AsuPart = () => {
         </div>
         <div>
           Accelerate your digital learning capabilities by utilizing online
-          curricula from ASU.
+          curricula from BU.
         </div>
       </div>
 
@@ -69,7 +69,7 @@ const AsuPart = () => {
           </span>
         </div>
         <div>
-          Opportunities for your faculty to collaborate with ASU academic
+          Opportunities for your faculty to collaborate with BU academic
           counterparts.
         </div>
       </div>
@@ -77,4 +77,4 @@ const AsuPart = () => {
   );
 };
 
-export default AsuPart;
+export default BUPart;

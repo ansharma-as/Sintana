@@ -2,42 +2,43 @@ import React from 'react';
 
 const UniversityLogos = () => {
   return (
-    <div className="bg-customGrey py-0 h-24">
-      <div className="container mx-auto flex justify-around items-center">
+    <div className="bg-slate-400 py-0 h-24 pt-4">
+      <div className="container mx-auto  flex justify-around items-center">
         {/* Logo 1 */}
-        <a href="https://www.cintana.com/university/the-international-university-of-ecuador/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed1.png" alt="UIDE" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://www.fiu.edu/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/flu.png" alt="Florida International University, Miami" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
 
         {/* Logo 2 */}
-        <a href="https://www.cintana.com/university/universidad-autonoma-de-guadalajara/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed2.png" alt="Universidad Autónoma de Guadalajara" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://www.gmu.edu/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/GMU.png" alt="George Mason University, USA" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
 
         {/* Logo 3 */}
-        <a href="https://www.cintana.com/university/northcap-university/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed3.png" alt="The NorthCap University" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://www.essex.ac.uk/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/UE.png" alt="University of Essex, England" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
-
+        
         {/* Logo 4 */}
-        <a href="https://www.cintana.com/university/universidad-latina/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed4.png" alt="Universidad Latina de Costa Rica" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://www.kings.uwo.ca/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/KUC.png" alt="King's University College, Canada" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
 
         {/* Logo 5 */}
-        <a href="https://www.cintana.com/university/istanbul-bilgi-university/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed5.png" alt="Istanbul Bilgi University" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://english.tau.ac.il/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/TAU.png" alt="Tel Aviv University, Israel" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
 
         {/* Logo 6 */}
-        <a href="https://www.cintana.com/university/almaty-management-university/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed6.png" alt="Almaty Management University" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://www.ubc.ca/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/ubc.png" alt="The University of British Columbia" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
 
         {/* Logo 7 */}
-        <a href="https://www.cintana.com/university/galala-university/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/processed7.png" alt="Galala University" className="h-16 hover:opacity-75 transition-opacity" />
+        <a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/university-logo/GT.png" alt="Georgia Tech University Florida" className="h-16 hover:opacity-75 transition-opacity" />
         </a>
+
       </div>
     </div>
   );

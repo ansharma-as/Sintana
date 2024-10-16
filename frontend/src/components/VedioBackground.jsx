@@ -36,7 +36,7 @@ const VideoBackgroundSection = () => {
   };
 
   return (
-    <div className="relative h-[700px] overflow-hidden">
+    <div className="relative h-[600px] overflow-hidden">
       {/* Video Background */}
       {showVideo ? (
         <video
@@ -50,7 +50,7 @@ const VideoBackgroundSection = () => {
         </video>
       ) : (
         <img
-          src="/images/vedio-changer.jpeg" 
+          src="/images/BU3.png" 
           alt="Background Image"
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
@@ -65,17 +65,21 @@ const VideoBackgroundSection = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 w-[86%] mx-auto bg-white bg-opacity-0 flex flex-col justify-center">
         {/* Title */}
         <h1 className="mt-32 text-4xl md:text-5xl lg:text-7xl text-white font-bold tracking-wide mb-4">
-          Partners in Growth
+        Alliance for Growth
+
+
         </h1>
 
         {/* Subtitle */}
         <div>
           <p className=" text-lg lg:text-[27.26px] font-bold text-white mb-6 w-full leading-relaxed">
-            Cintana helps universities achieve their ambitious goals by connecting them to the transformational resources and partners they need to succeed.
+          Accelerating University Growth and Success
+
+
           </p>
 
           <span className="text-lg lg:text-[27.26px] text-white mb-6 leading-relaxed w-full">
-            Founded by <span className="text-yellow-400">Douglas Becker</span> in collaboration with <span className="text-yellow-400">Arizona State University</span> (ranked #1 in the U.S. for innovation), Cintana helps universities reach more students with the education they need and deserve.
+            Founded by <span className="text-yellow-400">Jagendra Singh</span> in collaboration with <span className="text-yellow-400">Bennett University</span> (ranked #1 in the India for innovation), Sintana helps universities reach more students with the education they need and deserve.
           </span>
         </div>
 
@@ -102,8 +106,8 @@ const VideoBackgroundSection = () => {
           <div className="relative w-[90%] h-[70%] lg:h-[100%] lg:w-[80%]">
             <iframe
               width="100%"
-              height="700"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"
+              height="600"
+              src="https://www.youtube.com/embed/PZMHnE71cuM?playlist=PZMHnE71cuM&loop=1"
               title="YouTube Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
