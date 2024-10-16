@@ -11,6 +11,10 @@ import TeamMemberDetail from './components/TeamMemberDetail';
 import Universities from './pages/Universities';
 import NewUniversities from './pages/NewUniversities';
 
+import NewsPage from './pages/News';
+import TermsPage from './pages/TermsOfUse';
+
+
 // Define a separate component to use the location inside the Router
 const AppContent = () => {
   const location = useLocation();
@@ -26,7 +30,13 @@ const AppContent = () => {
       case '/contact':
         document.title = 'Contact - Sintana Education';
         break;
-      case '/cintana-alliance':
+      case '/news':
+        document.title = 'News - Sintana Education';
+        break;
+      case '/terms':
+        document.title = 'Terms - Sintana Education';
+        break;
+      case '/sintana-alliance':
         document.title = 'The Sintana Alliance - Sintana Education';
         break;
       default:
@@ -39,15 +49,22 @@ const AppContent = () => {
       
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/#' element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/cintana-alliance" element={<SintanaAlliance />} />
+        <Route path="/sintana-alliance" element={<SintanaAlliance />} />
         <Route path="/w" element={<TrackpadSensitiveSlider/>}/>
-        <Route path="/asu-partnership" element={<AsuPartnership />}/>
+        <Route path="/bu-partnership" element={<AsuPartnership />}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/team/:name' element={<TeamMemberDetail/>}/>
         <Route path='/globally-ranked-universities' element={<Universities/>} />
         <Route path='/new-universities' element={<NewUniversities/>}/>
+
+        <Route path='/news' element={<NewsPage/>}/>
+        <Route path='/terms' element={<TermsPage/>}/>
+        <Route path='/powered-by-bu' element={<TermsPage/>}/>
+
+
       </Routes>
     </>
   );
