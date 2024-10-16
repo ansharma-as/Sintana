@@ -85,7 +85,7 @@ const Navbar = () => {
                 Existing Universities
               </a>
               <a
-                href="/powered-by-asu"
+                href="/powered-by-bu"
                 className="px-4 py-2 hover:bg-opacity-75 sm1:px-6 sm1:py-3"
               >
                 Powered by BU

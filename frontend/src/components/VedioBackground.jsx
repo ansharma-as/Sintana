@@ -85,7 +85,7 @@ const VideoBackgroundSection = () => {
 
         {/* Buttons */}
         <div className="flex space-x-2 lg:space-x-4 mt-16">
-          <a href="/cintana-alliance">
+          <a href="/sintana-alliance">
             <button className="text-bold opacity-85 text-sm lg:text-lg bg-yellow-500 text-white px-8 lg:px-12 py-2.5 transition duration-300">
               Discover More
             </button>
