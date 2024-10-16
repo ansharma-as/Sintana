@@ -7,6 +7,13 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
+
+    if (!showMenu) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  
   };
 
   useEffect(() => {
@@ -81,7 +88,7 @@ const Navbar = () => {
                 href="/powered-by-asu"
                 className="px-4 py-2 hover:bg-opacity-75 sm1:px-6 sm1:py-3"
               >
-                Powered by ASU
+                Powered by BU
               </a>
               <a
                 href="/new-universities"
