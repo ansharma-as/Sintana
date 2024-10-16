@@ -21,7 +21,7 @@ const HomeCards = () => {
         {/* Right Section - Image */}
         <div className="xl:w-1/2">
           <img
-            src="/images/HomeCard1.jpg"  // Replace with your image URL
+            src="/images/BU3.png"  // Replace with your image URL
             alt="Billboard"
             className="rounded-lg shadow-lg w-full"
           />
@@ -36,7 +36,7 @@ const HomeCards = () => {
         {/* Left Section - Image */}
         <div className="xl:w-1/2">
           <img
-            src="/images/HomeCard2.jpg"  // Replace with your image URL
+            src="/images/BU4.png"  // Replace with your image URL
             alt="Billboard"
             className="rounded-lg shadow-lg w-full"
           />
@@ -75,7 +75,7 @@ const HomeCards = () => {
         {/* Right Section - Image */}
         <div className="xl:w-1/2">
           <img
-            src="/images/HomeCard3.jpg"  // Replace with your image URL
+            src="/images/BU7.png"  // Replace with your image URL
             alt="Billboard"
             className="rounded-lg shadow-lg w-full"
           />
@@ -88,7 +88,7 @@ const HomeCards = () => {
         {/* Left Section - Image */}
         <div className="xl:w-1/2">
           <img
-            src="/images/HomeCard4.jpg"  // Replace with your image URL
+            src="/images/BU5.png"  // Replace with your image URL
             alt="Billboard"
             className="rounded-lg shadow-lg w-full"
           />
@@ -99,10 +99,10 @@ const HomeCards = () => {
           <h1 className="text-gray-700 text-4xl font-bold mb-4 ml-5">
           Featured University          </h1>
           <p className="text-gray-500 mb-6 ml-5">
-          WGalala University is one of the newest members of the Cintana Alliance. In partnership with Arizona State University, they will offer dual degree programs to Egyptian students across a number of disciplinary domains.   </p>
-          <button className="bg-yellow-500 ml-8 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition">
+          Bennett University Collaborates with Tel Aviv University to Boost Research and Innovation in Science and Technology. </p>
+          {/* <button className="bg-yellow-500 ml-8 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition">
             Learn more
-          </button>
+          </button> */}
         </div>
       </div>
 

@@ -104,8 +104,8 @@ const TermsPage = () => {
                 **Contact Information**  
                 If you have any questions about these Terms of Use, please contact us at:
                 <br />
-                **Cintana Alliance**  
-                [Email Address]  
+                Sintana Alliance
+                anshsharma712.as@gmail.com  
                 [Physical Address]
               </p>
             </div>

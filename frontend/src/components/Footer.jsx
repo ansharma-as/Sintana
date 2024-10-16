@@ -25,8 +25,8 @@ const FooterComponent = () => {
               <h3 className="font-bold mb-2"></h3>
               <ul className="space-y-2">
                 <li><a href="/sintana-alliance" className="hover:underline">The Sintana Alliance</a></li>
-                <li><a href="/asu-partnership" className="hover:underline">BU Partnership</a></li>
-                <li><a href="/powered-by-asu" className="hover:underline">Powered by BU</a></li>
+                <li><a href="/bu-partnership" className="hover:underline">BU Partnership</a></li>
+                <li><a href="/powered-by-bu" className="hover:underline">Powered by BU</a></li>
                 <li><a href="/new-universities" className="hover:underline">New Universities</a></li>
                 <li><a href="/regional-universities" className="hover:underline">Regional Universities</a></li>
                 <li><a href="/globally-ranked-universities" className="hover:underline">Globally Ranked Universities</a></li>
