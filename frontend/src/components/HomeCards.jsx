@@ -8,10 +8,10 @@ const HomeCards = () => {
         {/* Left Section - Text and Button */}
         <div className="xl:w-1/2 text-center xl:text-left">
           <h1 className="text-gray-700 text-4xl font-bold mb-4 ml-5">
-            Powered by ASU
+            Powered by BU
           </h1>
           <p className="text-gray-500 mb-6 ml-5">
-            When you partner with Cintana and ASU, your students get direct access to the resources and expertise of Arizona State University.
+            When you partner with Sintana and BU, your students get direct access to the resources and expertise of Bennett University.
           </p>
           <button className="bg-yellow-500 text-white font-bold py-2 px-6 rounded hover:bg-yellow-600 transition ml-8">
             Learn more

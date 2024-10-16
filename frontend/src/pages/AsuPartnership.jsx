@@ -11,7 +11,7 @@ const AsuPartnership = () => {
 
       <div className=" relative h-auto w-auto ">
 
-        <div className="bg-[url('/images/partnership-page-bg.png')] bg-cover bg-center h-[217.8px] w-full xl1:h-[500px] ">
+        <div className="bg-[url('/images/BU4.png')] bg-cover bg-center h-[217.8px] w-full xl1:h-[500px] ">
 
           <Navbar />
         </div>

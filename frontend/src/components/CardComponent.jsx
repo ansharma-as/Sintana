@@ -2,36 +2,54 @@ import React from 'react';
 
 const universities = [
   {
-    name: 'Almaty Management University',
-    description: 'An internationally recognized, globally accredited and award-winning university in Kazakhstan.',
-    img: '/path/to/almaty-university.jpg',
-    link: 'https://www.example.com/almaty-management-university',
+    name: 'The University of British Columbia, Canada',
+    description: 'A globally renowned university in Canada, offering top-tier programs in various fields through its collaboration with Bennett University.',
+    img: '/images/cardSection/UBC.jpg',
+    link: 'https://www.bennett.edu.in/ubc',
   },
   {
-    name: 'American University Kyiv',
-    description: 'A world-class private university in Ukraine, providing higher education at the Bachelor, Masters, and PhD levels.',
-    img: '/path/to/american-university-kyiv.jpg',
-    link: 'https://www.example.com/american-university-kyiv',
+    name: 'Florida International University, USA',
+    description: 'A leading U.S. institution, partnered with Bennett University to provide students with access to international learning and academic opportunities.',
+    img: '/images/cardSection/FIU.jpg',
+    link: 'https://www.bennett.edu.in/florida-international-university',
   },
   {
-    name: 'CEIPA',
-    description: 'A pioneer in virtual education in Colombia and now a member of the Cintana Alliance global network.',
-    img: '/path/to/ceipa.jpg',
-    link: 'https://www.example.com/ceipa',
+    name: 'University of Nebraska, Omaha',
+    description: 'Bennett University partners with the University of Nebraska, offering students globally competitive programs in various disciplines.',
+    img: '/images/cardSection/UMO.jpg',
+    link: 'https://www.bennett.edu.in/university-of-nebraska',
   },
   {
-    name: 'Charlotte Fresenius Privatuniversität',
-    description: 'Located in Vienna, a University of Sustainability focused on clear sustainability goals.',
-    img: '/path/to/charlotte-fresenius.jpg',
-    link: 'https://www.example.com/charlotte-fresenius',
+    name: 'University of Essex, England',
+    description: 'Through its partnership with the University of Essex, Bennett University offers world-class programs in law and humanities, providing students with a global education.',
+    img: '/images/cardSection/EU.jpg',
+    link: 'https://www.bennett.edu.in/university-of-essex',
   },
   {
-    name: 'Chitkara University',
-    description: 'A private university offering undergraduate and post-graduate programs in various fields.',
-    img: '/path/to/chitkara-university.jpg',
-    link: 'https://www.example.com/chitkara-university',
+    name: 'King’s University College, Canada',
+    description: 'Bennett University partners with King’s University College, offering students unique opportunities to pursue high-quality education in Canada.',
+    img: '/images/cardSection/KU.jpg',
+    link: 'https://www.bennett.edu.in/kings-university-college',
   },
-  // Add more universities as needed...
+  {
+    name: 'George Mason University, Virginia',
+    description: 'Bennett University’s partnership with George Mason University enables students to benefit from internationally recognized programs and professional development opportunities.',
+    img: '/images/cardSection/GMU.jpg',
+    link: 'https://www.bennett.edu.in/george-mason-university',
+  },
+  {
+    name: 'Tel Aviv University, Israel',
+    description: 'In collaboration with Tel Aviv University, Bennett University provides students with access to cutting-edge research and global academic exposure.',
+    img: '/images/cardSection/TAU.jpg',
+    link: 'https://www.bennett.edu.in/tel-aviv-university',
+  },
+  {
+    name: 'Georgia Institute of Technology, USA',
+    description: 'Bennett University’s partnership with Georgia Tech offers students unparalleled opportunities in engineering and technology education.',
+    img: '/images/cardSection/GT.jpg',
+    link: 'https://www.bennett.edu.in/georgia-tech',
+  },
+
 ];
 
 const CardSection = () => {
