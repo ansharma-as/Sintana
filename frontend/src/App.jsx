@@ -13,6 +13,8 @@ import NewUniversities from './pages/NewUniversities';
 
 import NewsPage from './pages/News';
 import TermsPage from './pages/TermsOfUse';
+import ExistingUniversities from './pages/existingUniversities';
+import PoweredByBU from './pages/PoweredByBU';
 
 
 // Define a separate component to use the location inside the Router
@@ -36,8 +38,26 @@ const AppContent = () => {
       case '/terms':
         document.title = 'Terms - Sintana Education';
         break;
+      case '/bu-partnership':
+        document.title = 'BU Partnership - Sintana Education';
+        break;
+        case '/team':
+      document.title = 'Team - Sintana Education';
+      break;
       case '/sintana-alliance':
         document.title = 'The Sintana Alliance - Sintana Education';
+        break;
+      case '/globally-ranked-universities':
+      document.title = 'Globally Ranked Universities - Sintana Education';
+      break;
+      case '/new-universities':
+      document.title = 'New Universities - Sintana Education';
+      break;
+      case '/powered-by-bu':
+      document.title = 'Powered By BU - Sintana Education';
+      break;
+      case '/existing-universities':
+      document.title = 'Existing Universities - Sintana Education';
         break;
       default:
         document.title = 'Home - Sintana Education';
@@ -62,7 +82,8 @@ const AppContent = () => {
 
         <Route path='/news' element={<NewsPage/>}/>
         <Route path='/terms' element={<TermsPage/>}/>
-        <Route path='/powered-by-bu' element={<TermsPage/>}/>
+        <Route path='/powered-by-bu' element={<PoweredByBU/>}/>
+        <Route path='/existing-universities' element={< ExistingUniversities />}/>
 
 
       </Routes>

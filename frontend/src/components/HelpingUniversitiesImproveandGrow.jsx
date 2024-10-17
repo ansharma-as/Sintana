@@ -6,8 +6,12 @@ import LaptopIcon from '@mui/icons-material/Laptop';
 import PublicIcon from '@mui/icons-material/Public';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+import { useNavigate } from 'react-router-dom';
+
 
 const UniversityImprovement = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="text-center h-auto w-full py-12">
       <div className="text-customGrey text-5xl font-bold mb-4 mt-4">
@@ -64,7 +68,7 @@ const UniversityImprovement = () => {
 
       <div className="mt-8">
         <button className="bg-yellow-500 text-customGrey font-bold py-2 px-16 rounded mt-8 hover:bg-yellow-600 transition"
-        onClick={"/existing-universities"}>
+        onClick={() => navigate('existing-universities')}>
           Learn More
         </button>
       </div>

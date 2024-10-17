@@ -18,7 +18,7 @@ const BUPart = () => {
 
         <div >
           Access to a digital repository of content and curriculum from the BU
-          catalogue of 200+ online degree programs.
+          catalogue of online degree programs.
         </div>
       </div>
 
@@ -31,7 +31,7 @@ const BUPart = () => {
         </div>
         <div>
           A range of global learning options including the opportunity to study
-          at an BU campus in Phoenix, Washington D.C., or Los Angeles.
+          at an BU campus in Greater Noida, Uttar Pradesh, India.
         </div>
       </div>
 

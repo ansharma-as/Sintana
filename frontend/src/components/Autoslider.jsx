@@ -6,53 +6,41 @@ const Autoslider = () => {
   const slides = [
     {
       statement:
-        "Top 10 globally in business management programs with exceptional faculty and resources",
-      by: "— U.S. News & World Report",
+        "Ranked #1 for Engineering programs among private universities in India.",
+      by: "— India Today",
+    },
+    {
+      statement: "Top 5 Private Universities in India for Academic Excellence.",
+      by: "— QS India University Rankings",
     },
     {
       statement:
-        "Ranked #1 for innovation, 8 years straight, driving groundbreaking advancements worldwide",
-      by: "— U.S. News & World Report",
+        "Awarded A+ grade by the National Assessment and Accreditation Council (NAAC).",
+      by: "— NAAC",
     },
     {
       statement:
-        "Top 100 universities globally for academic excellence, research, and student success",
-      by: "— QS World University Rankings",
+        "Ranked among the Top 100 universities in India for Research and Innovation.",
+      by: "— National Institutional Ranking Framework (NIRF)",
     },
     {
       statement:
-        "Top 1% worldwide for research impact, advancing solutions to global challenges",
-      by: "— Times Higher Education",
+        "Top 10 in India for Placements in Engineering and Management streams.",
+      by: "— Times of India",
     },
     {
       statement:
-        "#1 for best online undergraduate programs, offering flexible and quality education",
-      by: "— U.S. News & World Report",
+        "Ranked among the Top 20 universities in India for the quality of infrastructure.",
+      by: "— Education World",
+    },
+    {
+      statement: "One of the Top 10 Emerging Universities in India for 2024.",
+      by: "— The Week",
     },
     {
       statement:
-        "Top 50 global universities recognized for their academic and research excellence",
-      by: "— Academic Ranking of World Universities",
-    },
-    {
-      statement:
-        "Top 5 for graduate employability, ensuring strong career outcomes for students",
-      by: "— QS Graduate Employability Rankings",
-    },
-    {
-      statement:
-        "World leader in sustainability and environmental impact, driving global climate solutions",
-      by: "— Times Higher Education Impact Rankings",
-    },
-    {
-      statement:
-        "Top 20 for global leadership and management programs, fostering innovative leaders",
-      by: "— Financial Times",
-    },
-    {
-      statement:
-        "#1 globally for research and teaching in cutting-edge scientific disciplines",
-      by: "— Nature Index",
+        "Ranked #1 for industry collaborations and internships among private universities.",
+      by: "— Careers360",
     },
   ];
 
@@ -71,15 +59,18 @@ const Autoslider = () => {
   return (
     <div className=" xl:p-[100px] md:p-10 p-6 bg-[#EFEFEF] flex flex-col items-center h-auto">
       <h2 className="text-[46.08px] text-[#425563] font-bold tracking-normal leading-tight">
-        About Arizona State University
+        About Bennett University
       </h2>
       <div className="my-8"></div>
       <p className="text-center">
-        ASU is a comprehensive public research university, measured not by whom
-        it excludes, but by whom it includes and how they succeed; advancing
-        research and discovery of public value; and assuming fundamental
-        responsibility for the economic, social, cultural and overall health of
-        the communities it serves.
+        Bennett University is a pioneering institution focused on transforming
+        higher education in India. It prioritizes inclusivity and measures
+        success by the achievements of its diverse student body. With a strong
+        emphasis on innovation and research, the university collaborates with
+        industry leaders to provide students with practical learning
+        experiences. By fostering social responsibility, Bennett University
+        prepares graduates to tackle global challenges and contribute positively
+        to society.
       </p>
       <div className="my-6"></div>
       <span className="text-[28.8px] text-[#425563] font-bold tracking-normal leading-tight">
@@ -97,14 +88,14 @@ const Autoslider = () => {
               {slides.map((slide, index) => (
                 <div
                   key={index}
-                  className="w-full flex-shrink-0 h-auto flex flex-col justify-center items-center"
+                  className="w-full flex-shrink-0 h-auto flex flex-col justify-center items-center p-4"
                   style={{ minWidth: "100%" }}
                 >
-                  <h2 className="text-[28.8px] font-semibold italic text-[#425563]">
+                  <h2 className="text-[24px] sm:text-[28.8px] font-semibold italic text-[#425563] text-center">
                     {slide.statement}
                   </h2>
-                  <div className="my-6"></div>
-                  <span className="text-[#425563] text-[17.5px] font-bold">
+                  <div className="my-4"></div>
+                  <span className="text-[#425563] text-[15px] sm:text-[17.5px] font-bold text-center">
                     {slide.by}
                   </span>
                 </div>
@@ -113,7 +104,7 @@ const Autoslider = () => {
           </div>
 
           {/* dots below the slides */}
-          <div className="mt-6 flex flex-wrap justify-center space-x-3 h-auto">
+          <div className="mt-6 flex  flex-wrap  justify-center h-auto space-x-3">
             {slides.map((_, index) => (
               <span
                 key={index}
@@ -121,7 +112,7 @@ const Autoslider = () => {
                   moveToSlide(index);
                   setFlag(!flag);
                 }}
-                className={`cursor-pointer h-2 w-2 rounded-full mx-2 my-2 ${
+                className={`cursor-pointer h-2 w-2 rounded-full transition-colors duration-300  my-2 ${
                   index === currentSlide ? "bg-black" : "bg-slate-400"
                 }`}
               ></span>
