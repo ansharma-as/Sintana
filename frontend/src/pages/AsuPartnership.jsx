@@ -9,7 +9,7 @@ const AsuPartnership = () => {
   return (
     <>
       <div className=" relative h-auto w-auto ">
-        <div className="bg-[url('/images/partnership-page-bg.png')] bg-cover bg-center h-[217.8px] w-full xl1:h-[500px] ">
+        <div className="bg-[url('/images/BU4.png')] bg-cover bg-center h-[217.8px] w-full xl1:h-[500px] ">
           <Navbar />
         </div>
 
@@ -31,14 +31,10 @@ const AsuPartnership = () => {
           </div>
 
           <BUPart />
-
-          
-
-
         </div>
       </div>
 
-      <Autoslider/>
+      <Autoslider />
 
       <div className="">
         <div className="lg1:flex flex-col-reverse md1:flex sm1:flex">
@@ -47,11 +43,15 @@ const AsuPartnership = () => {
               Cutting-Edge Innovation and Research
             </h2>
             <p className="text-[15.84px] mt-4">
-              BU has consistently been ranked the number one university for
-              innovation by US News & World Report. In fact, since 2002, BU has
-              had a five-fold growth in research funding (from $100 million to
-              more than $650 million) and has become one of the fastest-growing
-              research enterprises in the United States.
+              Bennett University (BU) is recognized as No. 1 for Private
+              University Innovation in India. Known for its strong global
+              partnerships with institutions like Babson College and Georgia
+              Tech, BU leads in fostering entrepreneurship, AI, and data
+              sciences. Its No. 1 ranking for placements and No. 1 School of
+              Media & Journalism add to its reputation for academic excellence.
+              BU's rapid growth, interdisciplinary research, and industry-driven
+              programs have made it a top choice for students seeking
+              cutting-edge education and industry-ready skills.
             </p>
           </div>
 
@@ -70,27 +70,24 @@ const AsuPartnership = () => {
               World-Class Resources and Faculty
             </h2>
             <p className="text-[15.84px] mt-4">
-              BU’s 119,000 students – including more than 40,000 online
-              students — enjoy access to resources and faculty that can’t be
-              found anywhere else, including Ira A. Fulton Schools of
-              Engineering, the largest engineering program in the U.S. and the
-              W.P. Carey School of Business, one of the top business schools in
-              the country and highly ranked for academics, groundbreaking
-              research, and student outcomes. BU’s Thunderbird School of Global
-              Management is ranked #1 Worldwide for its Master of Global
-              Management. Additionally, BU is ranked among the top universities
-              in the world for research and teaching. More than 400 BU faculty
-              have been conferred by the National Academies of Sciences,
-              Engineering and Medicine with “highly prestigious” awards. Among
-              BU faculty are Nobel laureates, Pulitzer Prize winners, MacArthur
-              Foundation fellows and Fulbright American scholars.
+              Bennett University (BU) continues to receive significant
+              recognition for both its faculty and cutting-edge resources.
+              Recently, 11 of BU's faculty members were ranked among the top 2%
+              of scientists worldwide, showcasing its strong emphasis on
+              academic excellence and research. This accolade places BU among
+              India’s leading institutions for innovation and research. In
+              addition to its esteemed faculty, BU has set a milestone by
+              becoming the first private university in India to install an AI
+              Supercomputer, in collaboration with NVIDIA. This move has
+              transformed the university into a hub for advanced AI research,
+              with enhanced capabilities in fields like deep learning,
+              healthcare, and smart living solutions.
             </p>
           </div>
         </div>
       </div>
-      <Partnership/>
-      <FooterComponent/>
-
+      <Partnership />
+      <FooterComponent />
     </>
   );
 };
