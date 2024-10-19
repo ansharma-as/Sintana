@@ -66,12 +66,7 @@ const UniversityImprovement = () => {
         </div>
       </div>
 
-      <div className="mt-8">
-        <button className="bg-yellow-500 text-customGrey font-bold py-2 px-16 rounded mt-8 hover:bg-yellow-600 transition"
-        onClick={() => navigate('existing-universities')}>
-          Learn More
-        </button>
-      </div>
+      
     </div>
   );
 };
