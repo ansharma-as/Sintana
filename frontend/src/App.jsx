@@ -60,7 +60,7 @@ const AppContent = () => {
       document.title = 'Existing Universities - Sintana Education';
         break;
       default:
-        document.title = 'Home - Sintana Education';
+        document.title = 'Sintana Education';
     }
   }, [location]);
 
