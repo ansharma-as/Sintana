@@ -37,7 +37,20 @@ const ContactPage = () => {
           {/* Phone */}
           <div className="mb-12">
             <h2 className="text-4xl font-bold text-customYellow mb-4">Phone</h2>
-            <p className="text-lg">+91 9773661339</p>
+            <a 
+              href="tel:+919773661339" 
+              className="text-lg text-white hover:text-customYellow "
+            >
+              +91 9773661339
+            </a>
+            <br />
+
+            <a 
+              href="mailto:jagendra.singh@bennett.edu.in" 
+              className="text-lg text-white hover:text-customYellow "
+            >
+              jagendra.singh@bennett.edu.in
+            </a>
           </div>
 
           {/* Travel Information */}
